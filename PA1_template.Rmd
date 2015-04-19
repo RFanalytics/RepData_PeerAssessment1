@@ -1,5 +1,8 @@
 ---
-title: "Reproducible Research: Peer Assessment 1"
+title: 'Reproducible Research: Peer Assessment 1'
+output:
+  html_document:
+    keep_md: yes
 ---
 
 ### Since this is a learing assignment, I will explain my actions as the report goes along as well as develop a respectable looking report that answers the questions
