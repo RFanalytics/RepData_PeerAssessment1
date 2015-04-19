@@ -1,6 +1,11 @@
-# Reproducible Research: Peer Assessment 1
+---
+title: 'Reproducible Research: Peer Assessment 1'
+output:
+  html_document:
+    keep_md: yes
+---
 
-### Since this is a learing assignment, I will explain my actions as the report goes along as well as develop a respectable looking report that answers the questions
+### Since this is a learing assignment, I will explain my actions as the report goes along as well as develop a respectable looking report that answers the questions.
 
 To begin the project, I like to first load all the libraries that I use.
 
@@ -52,7 +57,7 @@ The following code removes rows where the number of steps = NA to prepare the da
                                    color = "black")
 ```
 
-![](./PA1_template_files/figure-html/unnamed-chunk-5-1.png) 
+![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5-1.png) 
 
 3.      Calculate and report the mean and median of the total number of steps taken per day.  
 
@@ -95,7 +100,7 @@ I have chosen to use cat to print the report below the code for this part.  It s
                      ggtitle("Average Steps Per Interval  Oct-1-2012 to Nov-30-2012")
 ```
 
-![](./PA1_template_files/figure-html/unnamed-chunk-7-1.png) 
+![plot of chunk unnamed-chunk-7](figure/unnamed-chunk-7-1.png) 
 
 2.      Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?   
 
@@ -151,7 +156,7 @@ I am rounding the steps to integers as part of this report.
                                   color = "black")
 ```
 
-![](./PA1_template_files/figure-html/unnamed-chunk-12-1.png) 
+![plot of chunk unnamed-chunk-12](figure/unnamed-chunk-12-1.png) 
 
 **The mean number of steps taken per day using the imputed is 10766.**  
 
@@ -207,7 +212,7 @@ plot.weekend <- ggplot(week.end, aes(x = interval)) +
 grid.arrange(plot.weekday, plot.weekend)
 ```
 
-![](./PA1_template_files/figure-html/unnamed-chunk-14-1.png) 
+![plot of chunk unnamed-chunk-14](figure/unnamed-chunk-14-1.png) 
 
 ###  **Question 4 answer:**  
 #### There are differences between the activity patterns of weekdays and weekends.  The weekday data shows a larger average number of steps at the begining part of the day, with some lower average number of steps sustained during daytime hours.  The weekend data shows more instances of higher averages during the daytime hours.  One explanation could be that this person is perhaps an office worker.  There would be some activity getting ready for the work day in the morning with some moderate movement during the work day.  Some spurts in activity during the day could be explained as going out to lunch and stopping after work to pick up grocery items.  On the weekends, this person may have more activities such as shopping, yard work, or participattion in hobbies which could explain the difference.  Both data sets show little activity during normal sleep hours and this result is expected.  

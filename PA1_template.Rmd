@@ -5,7 +5,7 @@ output:
     keep_md: yes
 ---
 
-### Since this is a learing assignment, I will explain my actions as the report goes along as well as develop a respectable looking report that answers the questions
+### Since this is a learing assignment, I will explain my actions as the report goes along as well as develop a respectable looking report that answers the questions.
 
 To begin the project, I like to first load all the libraries that I use.
 
