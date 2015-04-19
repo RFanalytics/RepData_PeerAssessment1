@@ -62,7 +62,8 @@ if (window.hljs && document.readyState && document.readyState === "complete") {
 suppressWarnings(suppressPackageStartupMessages(library(dplyr)))
 suppressWarnings(suppressPackageStartupMessages(library(stringr)))
 suppressWarnings(suppressPackageStartupMessages(library(ggplot2)))
-suppressWarnings(suppressPackageStartupMessages(library(gridExtra)))</code></pre>
+suppressWarnings(suppressPackageStartupMessages(library(gridExtra)))
+suppressWarnings(suppressPackageStartupMessages(library(knitr)))</code></pre>
 </div>
 <div id="preparation---loading-and-preprocessing-the-data" class="section level2">
 <h2>Preparation - Loading and preprocessing the data</h2>
@@ -204,6 +205,7 @@ grid.arrange(plot.weekday, plot.weekend)</code></pre>
 <h3><strong>Question 4 answer:</strong></h3>
 <div id="there-are-differences-between-the-activity-patterns-of-weekdays-and-weekends.-the-weekday-data-shows-a-larger-average-number-of-steps-at-the-begining-part-of-the-day-with-some-lower-average-number-of-steps-sustained-during-daytime-hours.-the-weekend-data-shows-more-instances-of-higher-averages-during-the-daytime-hours.-one-explanation-could-be-that-this-person-is-perhaps-an-office-worker.-there-would-be-some-activity-getting-ready-for-the-work-day-in-the-morning-with-some-moderate-movement-during-the-work-day.-some-spurts-in-activity-during-the-day-could-be-explained-as-going-out-to-lunch-and-stopping-after-work-to-pick-up-grocery-items.-on-the-weekends-this-person-may-have-more-activities-such-as-shopping-yard-work-or-participattion-in-hobbies-which-could-explain-the-difference.-both-data-sets-show-little-activity-during-normal-sleep-hours-and-this-result-is-expected." class="section level4">
 <h4>There are differences between the activity patterns of weekdays and weekends. The weekday data shows a larger average number of steps at the begining part of the day, with some lower average number of steps sustained during daytime hours. The weekend data shows more instances of higher averages during the daytime hours. One explanation could be that this person is perhaps an office worker. There would be some activity getting ready for the work day in the morning with some moderate movement during the work day. Some spurts in activity during the day could be explained as going out to lunch and stopping after work to pick up grocery items. On the weekends, this person may have more activities such as shopping, yard work, or participattion in hobbies which could explain the difference. Both data sets show little activity during normal sleep hours and this result is expected.</h4>
+<p>knit2html(“PA1_template.Rmd”)</p>
 </div>
 </div>
 </div>
